@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="BadgerLoop" />
+<meta name="keywords" content="BadgerLoop, Wisconsin, Madison, Badgers, Hyperloop, SpaceX, Tesla, Elon Musk, Train"/>
+<meta name="author" content="BadgerLoop" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BadgerLoop</title>
+
+<!-- =========================
+ FAV AND TOUCH ICONS  
+==============================
+<link rel="shortcut icon" href="images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+
+<!-- =========================
+     STYLESHEETS      
+============================== -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/jquery.vegas.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+
+<link rel="stylesheet" href="assets/icon-fonts/styles.css"> 
+<link rel="stylesheet" href="css/pixeden-icons.css"> 
+
+<!-- CUSTOM STYLES -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- WEBFONT -->
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>
+<!-- =========================
+   PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+<!-- =========================
+   HOME SECTION       
+============================== -->
+<header id="home" class="header">
+	
+	<!-- TOP BAR -->
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+		<div class="container">
+			<div class="navbar-header responsive-logo">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand">
+			
+		<!----LOGO--->					
+			<img src="../images/BadgerLoopLogoSmall.png" alt="BadgerLoop">
+
+				</div>
+			</div>
+			<nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
+			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
+				<li><a href="../index.html">Go Back Home</a></li>
+<!--
+				<li><a href="#documents">Documents</a></li>
+				<li><a href="#aboutus">About Us</a></li>
+				<li><a href="#importantDates">Important Dates</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#features">Live Data</a></li>
+				<li><a href="#contact">Contact</a></li>
+-->
+			</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- / END TOP BAR -->
+	
+	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
+	<div class="container">
+		
+		<!-- HEADING -->
+		<h1 class="intro">Help support us on our path to success</h1>
+		
+		<!-- CALL TO ACTION BUTTONS -->
+		<div class="buttons inpage-scroll">
+		
+		<div class="row">
+			<div class="col-md-3 focus-box red wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<button id="25" class="btn btn-primary btn-lg">$25</button> 
+			</div>
+			
+			<div class="col-md-3 focus-box red wow fadeInRight animated nopadding" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<button id="50" class="btn btn-success btn-lg">$50</button> 
+			</div>
+			
+			<div class="col-md-3 focus-box red wow fadeInRight animated nopadding" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<button id="100" class="btn btn-warning btn-lg">$100</button>
+			</div>
+			<div class="col-md-3 focus-box red wow fadeInRight animated nopadding" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<button id="500" class="btn btn-danger btn-lg">$500</button>
+			</div>
+			
+<!-- 			<div class="col-md-3 focus-box red wow fadeInRight animated nopadding" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s"> -->
+				 <div class="input-group"> 
+					
+			        <span class="input-group-addon">Other: $</span>
+			        <input id="customValue" type="number" value="" placeholder="1000.00" min="0" step="1.00" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control currency" />
+			        <span class="input-group-btn">
+				        <button id="customAmount" class="btn btn-primary btn-block">
+			                <span class="glyphicon glyphicon-plus"></span>
+			            </button>
+			        </span>
+			    </div>
+			    
+			    <br>
+			    <div class="row">
+				    <div class="col-md-12 finePrint">
+					   We view security and your personal information as our highest priority when processing funding information.  Our payment gateway, Stripe, is certified to PCI Service Provider Level 1 which is the most stringent level of certification available. BadgerLoop.com obtains a SSL certificate that is issued with a SHA2 signature algorithm and supports both 256-bit and 128-bit encryption which comply with industry standard for data protection.  Our site uses HTTPS for all services - look for the green lock in the URL bar.  No plain text card numbers leave your machine, instead a custom token is created that is sent to Stripe’s server which is encrypted with AES-256 with decryptions keys being stored on separate machines.  As mentioned before, we take security very seriously and want to ensure you that your information will always be secure.  Thank you again for taking the time to donate to BadgerLoop. 
+					   <br><br>
+					   If you would rather donate via cash or check, please make checks payable to 'BadgerLoop organization' and send the donation to:<br>
+					   
+						BadgerLoop<br>
+						1131 Bowen Ct.<br> 
+						Madison, WI 53715
+				    </div>
+				</div>
+<!-- 			</div> -->
+		</div>
+		</div>
+		
+		
+	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
+	
+</header> <!-- / END HOME SECTION  -->
+
+
+<!-- ========================= 
+   CONTACT US         
+============================== -->
+
+<section class="contact-us" id="contact">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+        <div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">Get in touch</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text">
+			Have any questions? Drop us a message.
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- CONTACT FORM-->
+	<div class="row">
+		<form role="form" class="contact-form" id="contact-form">
+			<div class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+			<div class="col-lg-4 col-sm-4">
+				<input type="text" name="name" placeholder="Your Name" class="form-control input-box" id="name">
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<input type="email" name="email" placeholder="Your Email" class="form-control input-box" id="email">
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<input type="text" name="subject" placeholder="Subject" class="form-control input-box" id="subject">
+			</div>
+			</div>
+			
+			<div class="clearfix">
+			<div class="col-md-12 wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+				<textarea name="message" class="form-control textarea-box" placeholder="Your Message" id="message"></textarea>
+			</div>
+			</div>
+			<!-- IF MAIL SENT SUCCESSFULLY -->
+					<h4 class="success pull-left white-text">
+						Your message has been sent successfully.
+					</h4>
+					
+					<!-- IF MAIL SENDING UNSUCCESSFULL -->
+					<h4 class="error pull-left white-text">
+						E-mail must be valid and message must be longer than 1 character.
+					</h4>
+			<button class="btn btn-primary custom-button red-btn wow fadeInLeft animated" id="submit" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s" type="submit">Send Message</button>
+		</form>
+	</div>
+	<!-- / END CONTACT FORM-->
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END CONTACT US SECTION-->
+
+
+
+
+<!-- SCRIPTS -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.knob.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.vegas.min.js"></script>
+<script src="js/zerif.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"> </script>
+
+<input type="hidden" id="amountPay" name="chargeamount" val=""/>
+<!-- Added -->
+
+<form action="charge.php" method="post">
+<script type="text/javascript">
+    $(function(){
+
+		$('#25').on('click', function (e) {  
+			pay(2500);
+		});
+		$('#50').on('click', function (e) {  
+			pay(5000);
+		});
+		$('#100').on('click', function (e) {  
+			pay(10000);
+		});
+		$('#500').on('click', function (e) {  
+			pay(50000);
+		});
+		$('#customAmount').on('click', function (e) {  
+			var amount = $("#customValue").val()*100;
+			pay(amount);
+		});
+    
+
+	});
+	var pay = function(amountSelected) {
+		var token = function(res){
+          var $input = $('<input type=hidden name=stripeToken />').val(res.id);
+          var $theEmail = $('<input>').attr({ type: 'hidden', name: 'stripeEmail', value: res.email })
+          $('form').append($input).append($theEmail).submit();
+        };
+	$('input#amount').val(amountSelected);
+	document.cookie = "Amount=" + amountSelected;
+	var handler = StripeCheckout.configure({
+	    key: 'pk_live_fXAVXCShfBiNNmsb1nEiAxC2',
+	    image: 'images/BadgerLoopLogoSmall.png',
+	    locale: 'auto',
+	    token: token
+	  });
+	 handler.open({
+	      name: 'BadgerLoop.com',
+	      description: 'Badger Loop Donation',
+	      amount: amountSelected
+	    });
+	
+	$(window).on('popstate', function() {
+	    handler.close();
+	  });
+	}
+	$(document).keypress(function(e){
+	    if (e.which == 13){
+	        $("#customAmount").click();
+	    }
+	});
+
+</script>
+
+</form>
+
+
+</body>
+</html>

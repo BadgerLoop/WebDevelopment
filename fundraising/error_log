@@ -1,0 +1,35 @@
+[14-Oct-2015 17:41:15 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Customer cus_7ADgdvQDQMFtWY does not have a linked source with ID tok_16vtFUIIJSiA68r88vATzjNP.' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7ADg4zC69ZTg9G'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 404, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 404, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/char in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[14-Oct-2015 19:11:31 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7AF9VoSab41afE'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/ in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[14-Oct-2015 19:12:44 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7AFAzefltVjt0t'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/ in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[14-Oct-2015 19:31:48 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7AFT8qu1ZddqBC'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/ in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[14-Oct-2015 19:39:18 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7AFaETCxNkbV05'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/ in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[15-Oct-2015 13:46:07 UTC] PHP Fatal error:  Call to undefined function alert() in /home/croossin/public_html/badgerloop.com/fundraising/charge.php on line 24
