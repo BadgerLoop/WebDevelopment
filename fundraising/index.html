@@ -256,6 +256,7 @@
         };
 	$('input#amount').val(amountSelected);
 	document.cookie = "Amount=" + amountSelected;
+	document.cookie = "email=roossin@wisc.edu"
 	var handler = StripeCheckout.configure({
 	    key: 'pk_live_fXAVXCShfBiNNmsb1nEiAxC2',
 	    image: 'images/BadgerLoopLogoSmall.png',
