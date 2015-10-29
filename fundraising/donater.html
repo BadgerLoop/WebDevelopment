@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="BadgerLoop" />
+<meta name="keywords" content="BadgerLoop, Wisconsin, Madison, Badgers, Hyperloop, SpaceX, Tesla, Elon Musk, Train"/>
+<meta name="author" content="BadgerLoop" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BadgerLoop</title>
+
+<!-- =========================
+ FAV AND TOUCH ICONS  
+==============================
+<link rel="shortcut icon" href="images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+
+<!-- =========================
+     STYLESHEETS      
+============================== -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/jquery.vegas.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+
+<link rel="stylesheet" href="assets/icon-fonts/styles.css"> 
+<link rel="stylesheet" href="css/pixeden-icons.css"> 
+
+<!-- CUSTOM STYLES -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- WEBFONT -->
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+
+</head>
+
+
+<body>
+<!-- =========================
+   PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+<!-- =========================
+   HOME SECTION       
+============================== -->
+<header id="home" class="headerDonate">
+	
+	<!-- TOP BAR -->
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+		<div class="container">
+			<div class="navbar-header responsive-logo">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand">
+			
+		<!----LOGO--->					
+			<img src="../images/BadgerLoopLogoSmall.png" alt="BadgerLoop">
+
+				</div>
+			</div>
+			<nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
+			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
+				<li><a href="../../index.html">Go Back Home</a></li>
+
+			</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- / END TOP BAR -->
+	
+	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
+	<div class="container">
+		
+		<!-- HEADING -->
+		<h1 class="introServer">If you could inform us of...</h1>
+		
+		<!-- CALL TO ACTION BUTTONS -->
+		<div class="buttons inpage-scroll">
+		
+		<div class="col-md-12 finePrintServer">
+			We would just like to keep record of which team member you are donating for so if you could fill in their name it would be greatly appreciated.
+		</div>
+	
+		
+		
+	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
+	
+<!-- 	<div class="input-group">  -->
+					
+		<form class="form-inline" role="form">
+		  <div class="form-group">
+		    <label for="teamMember">Team Member First & Last Name:</label>
+		    <input type="text" class="form-control" id="teamMember">
+		  </div>
+		  <div class="form-group">
+		    <label for="donaterName">Your Name:</label>
+		    <input type="text" class="form-control" id="donaterName">
+		  </div>
+		  <button type="button" class="btn btn-default" onclick="addToParse(this.form)">Submit</button>
+		</form>
+		
+<!-- 	</div> -->
+		
+	
+</header> <!-- / END HOME SECTION  -->
+
+
+
+
+
+<!-- SCRIPTS -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.knob.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.vegas.min.js"></script>
+<script src="js/zerif.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"> </script>
+
+<SCRIPT LANGUAGE="JavaScript">
+	function addToParse(form) {
+		Parse.initialize("CyOi6Yk0cH9VT8DVXdt5CDTpdR9YQuJ5kQ4bnh7f", "QtgIeDrTcS7kwE9WVaehUHAoLPMrbliKPaS7nXlX");
+		
+		
+	    var teamMember = form.teamMember.value.toLowerCase();
+	    var donater = form.donaterName.value.toLowerCase();
+	    
+	    var TestObject = Parse.Object.extend("Fundraising");
+		var testObject = new TestObject();
+		testObject.set("teamMember", teamMember);
+		testObject.set("amountDonated", (Number(getCookie("Amount"))/100));
+		testObject.set("donater", donater);
+		testObject.set("donaterEmail", getCookie("Email"));
+		testObject.save(null, {
+		success: function(testObject) {
+		// Execute any logic that should take place after the object is saved.
+			alert("Thank you again for donating, we are taking you back home now!");
+			window.location.href = 'https://badgerloop.com/';
+		},
+		error: function(testObject, error) {
+		// Execute any logic that should take place if the save fails.
+		// error is a Parse.Error with an error code and message.
+		}
+		});
+	}    
+  
+	
+	function getCookie(cname) {
+	    var name = cname + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0; i<ca.length; i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1);
+	        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+	    }
+	    return "";
+	}
+</SCRIPT>
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+

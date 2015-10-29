@@ -23,6 +23,10 @@ body {
 	text-align: center;
 }
 
+.form-inline{
+	color: red;
+}
+
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
 	width: device-width;
@@ -198,6 +202,10 @@ h6 {
 -----------------------------------------*/
 .finePrint{
 	color: white;
+	font-style: italic;
+}
+.finePrintServer{
+	color: black;
 	font-style: italic;
 }
 
@@ -423,6 +431,14 @@ input:focus {
 	overflow: hidden;
 }
 
+.headerDonate {
+/* 	background: rgba(0, 0, 0, 0.5); */
+	min-height: 775px;
+	position: relative;
+	overflow: hidden;
+}
+
+
 /*----  SECTION:  HOME > TOP BAR   ----*/
 .navbar {
 	background: #FFF;
@@ -497,6 +513,14 @@ input:focus {
 .intro {
 	text-align: center;
 	color: #FFF;
+	margin-top: 25%;
+	line-height: 65px;
+	z-index: 0;
+}
+
+.introServer {
+	text-align: center;
+	color: #000000;
 	margin-top: 25%;
 	line-height: 65px;
 	z-index: 0;

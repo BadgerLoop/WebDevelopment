@@ -252,7 +252,9 @@
 		var token = function(res){
           var $input = $('<input type=hidden name=stripeToken />').val(res.id);
           var $theEmail = $('<input>').attr({ type: 'hidden', name: 'stripeEmail', value: res.email })
+          document.cookie = "Email="+$theEmail;
           $('form').append($input).append($theEmail).submit();
+//           document.cookie = "Email="+$theEmail;
         };
 	$('input#amount').val(amountSelected);
 	document.cookie = "Amount=" + amountSelected;

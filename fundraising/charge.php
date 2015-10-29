@@ -20,7 +20,7 @@ catch(\Stripe\Error\Card $e) {
 
 // 	echo '<h1>Thank You for donating!</h1>';
 	
-	header("Location: https://www.badgerloop.com"); /* Redirect browser */
+	header("Location: donater.html"); /* Redirect browser */
 // 	header("Location:)
 	die();
 ?>
