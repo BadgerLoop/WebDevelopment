@@ -103,7 +103,7 @@
 		    <label for="teamMember">Team Member First & Last Name:</label>
 		    <input type="text" class="form-control" id="teamMember">
 		  </div>
-		  <button type="button" class="btn btn-default" onclick="searchParse(this.form)">Submit</button>
+		  <input type="button" class="btn btn-default" onclick="searchParse(this.form)" value="Submit"></button>
 		</form>
 		
 <!-- 	</div> -->
@@ -147,7 +147,7 @@
 				      totalDonation += object.get('amountDonated');
 				      console.log(object.id + ' - ' + object.get('playerName'));
 				    }
-				    alert("Team member, "+teamMember+", has received $"+totalDonation+" in donations.");
+				    alert("Team member, "+teamMember+", has received $"+totalDonation+" in donations.\nWith a total number of "+results.length+" unique donations");
 		  },
 		  error: function(error) {
 		    alert("Error: " + error.code + " " + error.message);
@@ -166,6 +166,7 @@
 	    }
 	    return "";
 	}
+	
 </SCRIPT>
 
 
