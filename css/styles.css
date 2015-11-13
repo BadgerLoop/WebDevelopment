@@ -9,8 +9,8 @@ GLOBAL STYLES
 -----------------------------------------*/
 
 html {
-    
-    font-size: 100%;        
+
+    font-size: 100%;
 }
 
 body {
@@ -52,7 +52,7 @@ i {
 	vertical-align: middle;
 }
 ul, ol {
-padding-left: 0 !important; 
+padding-left: 0 !important;
 }
 li {
     list-style: none;
@@ -127,7 +127,11 @@ h5 {
 h6 {
 	font-size: 16px;
 }
-
+/*---------------------------------------
+ **   GENERAL MEMBERS               -----
+-----------------------------------------*/
+nav ul{height:400px; width:100%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
 /*---------------------------------------
  **   MEMBERSHP                     -----
 -----------------------------------------*/
@@ -340,11 +344,11 @@ h6 {
 	border-radius: 4px;
 	background: rgba(255,255,255, 0.95);
 }
- textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
+ textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
 input:focus {
     outline: 1 !important;
     outline-color: #e96656 !important;
