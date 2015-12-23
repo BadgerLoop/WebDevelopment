@@ -130,8 +130,8 @@ h6 {
 /*---------------------------------------
  **   GENERAL MEMBERS               -----
 -----------------------------------------*/
-nav ul{height:400px; width:100%;}
-nav ul{overflow:hidden; overflow-y:scroll;}
+navList ul{height:400px; width:100%;}
+navList ul{overflow:hidden; overflow-y:scroll;}
 /*---------------------------------------
  **   MEMBERSHP                     -----
 -----------------------------------------*/
