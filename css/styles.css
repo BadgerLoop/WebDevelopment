@@ -874,7 +874,7 @@ width: -webkit-calc(100% / 2);
 	text-transform: uppercase;
 }
 .client-list ul li img {
-	max-width: 130px;
+/* 	max-width: 130px; */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: 0.8;
