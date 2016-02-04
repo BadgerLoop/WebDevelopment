@@ -899,7 +899,7 @@ width: -webkit-calc(100% / 2);
 
 .stats {
 	background: rgba(0, 0, 0, 0.5);
-	padding: 100px 0 60px 0 !important;
+	padding: 60px 0 60px 0 !important;
 	clear: both;
 }
 .stat {
