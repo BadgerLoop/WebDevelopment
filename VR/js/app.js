@@ -117,7 +117,7 @@ angular.module('starter', ['ionic'])
         var sphere = new THREE.Mesh(
         new THREE.SphereGeometry(32, 64, 64),
         new THREE.MeshBasicMaterial({
-            map: THREE.ImageUtils.loadTexture('img/scene.png')
+            map: THREE.ImageUtils.loadTexture('img/scene.jpg')
         })
 
     );
