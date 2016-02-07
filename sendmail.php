@@ -6,5 +6,7 @@
 */
 
   mail( "jwagman@wisc.edu", $_POST['subject'], $_POST['message'], "From: " . $_POST['email']);
- 
+  mail( "mgoldberg4@wisc.edu", $_POST['subject'], $_POST['message'], "From: " . $_POST['email']);
+  mail( "sbsmith5@wisc.edu", $_POST['subject'], $_POST['message'], "From: " . $_POST['email']);
+  
 ?>
