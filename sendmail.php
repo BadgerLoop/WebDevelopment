@@ -5,7 +5,7 @@
 	jwagman@wisc.edu	
 */
 
-$subject = 	'[BadgerLoop Contact]' . $_POST['subject']
+$subject = 	'[BadgerLoop Contact]' . $_POST['subject'];
 
   // mail( "jwagman@wisc.edu", $_POST['subject'], $_POST['message'], "From: " . $_POST['email']);
   // mail( "mgoldberg4@wisc.edu", $_POST['subject'], $_POST['message'], "From: " . $_POST['email']);
