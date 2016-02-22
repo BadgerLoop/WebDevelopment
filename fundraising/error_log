@@ -33,3 +33,17 @@ Stack trace:
 #3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
 #4 /home/croossin/public_html/badgerloop.com/ in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
 [15-Oct-2015 13:46:07 UTC] PHP Fatal error:  Call to undefined function alert() in /home/croossin/public_html/badgerloop.com/fundraising/charge.php on line 24
+[16-Feb-2016 22:17:50 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid positive integer' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7v7NpKcIm1CGPs'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/fundrai in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
+[18-Feb-2016 04:48:58 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Invalid positive integer' in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php:102 from API request 'req_7vauORsnTar7Yf'
+Stack trace:
+#0 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php(60): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(105): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiResource.php(137): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/croossin/public_html/badgerloop.com/fundrai in /home/croossin/public_html/badgerloop.com/fundraising/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 102
