@@ -8,31 +8,15 @@ GLOBAL STYLES
 =========================================
 -----------------------------------------*/
 
-.funding{
-	background: #02AAB0; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #02AAB0 , #00CDAC); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #02AAB0 , #00CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.headerDonate{
-
-
-background: #02AAB0; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #02AAB0 , #00CDAC); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #02AAB0 , #00CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100%;
-min-height: 100%;
-}
-
 
 html {
-    
-    font-size: 100%;        
+
+    font-size: 100%;
 }
 
 body {
 	font-family: 'Lato', sans-serif !important;
-	font-size: 14px;
+	font-size: 20px;
 	color: #808080;
 	font-weight: normal;
 	overflow-x: hidden !important;
@@ -40,9 +24,7 @@ body {
 	text-align: center;
 }
 
-.form-inline{
-	color: red;
-}
+
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
@@ -71,7 +53,7 @@ i {
 	vertical-align: middle;
 }
 ul, ol {
-padding-left: 0 !important; 
+padding-left: 0 !important;
 }
 li {
     list-style: none;
@@ -110,15 +92,12 @@ p {
 	margin: auto;
 }
 
-
-
 /*---------------------------------------
  **   TYPOGRAPHY                     -----
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
 	padding: 0;
-	font-color:#808080;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -128,10 +107,10 @@ h1,h2,h3,h4,h5,h6 {
 h1,h2 {
 	font-family: 'Montserrat', 'sans-serif';
 	font-weight: 700;
+	text-transform: uppercase;
 }
 h1 {
 	font-size: 55px;
-	
 }
 h2 {
 	font-size: 45px !important;
@@ -149,6 +128,20 @@ h5 {
 h6 {
 	font-size: 16px;
 }
+/*---------------------------------------
+ **   GENERAL MEMBERS               -----
+-----------------------------------------*/
+navList ul{height:400px; width:100%;}
+navList ul{overflow:hidden; overflow-y:scroll;}
+/*---------------------------------------
+ **   MEMBERSHP                     -----
+-----------------------------------------*/
+.membershipReq{
+	color: white;
+	font-size: 14px;
+	line-height: 1;
+}
+
 
 /*---------------------------------------
  **   BUTTONS                        -----
@@ -209,25 +202,6 @@ h6 {
 	color: #FFF;
 	background: #d8951e;
 }
-
-.btn-lg{
-	width: 250px;
-}
-
-
-/*---------------------------------------
- ** FOR FINE PRINT UNDER PAYMENT GATEWAY 
------------------------------------------*/
-.finePrint{
-	color: white;
-	font-style: italic;
-}
-.finePrintServer{
-	color: black;
-	font-style: italic;
-}
-
-
 
 /*---------------------------------------
  **   COLORS                         -----
@@ -371,11 +345,11 @@ h6 {
 	border-radius: 4px;
 	background: rgba(255,255,255, 0.95);
 }
- textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
+ textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
 input:focus {
     outline: 1 !important;
     outline-color: #e96656 !important;
@@ -443,24 +417,17 @@ input:focus {
 -----------------------------------------*/
 
 .header {
-	background: rgba(0, 0, 0, 0.5);
-	min-height: 75px;
+	background: rgba(0, 0, 0, 0);
+	min-height: 90px;
 	position: relative;
 	overflow: hidden;
 }
-
-.headerDonate {
-/* 	background: rgba(0, 0, 0, 0.5); */
-	min-height: 775px;
-	position: relative;
-	overflow: hidden;
-}
-
 
 /*----  SECTION:  HOME > TOP BAR   ----*/
 .navbar {
-	background-color: red;
-    background-image: radial-gradient(#fff,#f00614);	overflow: hidden;
+	font-size: 14px;
+	background: #FFF;
+	overflow: hidden;
 	border: 0;
 	border-radius: 0 !important;
 	text-align: left;
@@ -476,11 +443,6 @@ input:focus {
 #main-nav.fixed {
 	position: fixed !important;
 	top: 0;
-}
-.navbar-center{
-	display: inline-block;
-	text-align: center;
-	margin-top:20px;
 }
 .navbar-inverse .navbar-nav>li {
 	display: inline;
@@ -536,17 +498,14 @@ input:focus {
 .intro {
 	text-align: center;
 	color: #FFF;
-	margin-top: 25%;
+	margin-top: 15%;
 	line-height: 65px;
 	z-index: 0;
 }
 
-.introServer {
-	text-align: center;
-	color: #000000;
-	margin-top: 25%;
-	line-height: 65px;
-	z-index: 0;
+.intro img{
+    max-width: 100%;
+    height: auto;
 }
 
 /* Short Messages */
@@ -654,7 +613,8 @@ input:focus {
 .separator-one {
 /* 	background: rgba(52, 210, 147, 0.8); */
 /* 	background: rgba(253, 0, 0, 1); */
-	background: rgba(255, 0, 0, 0.68);
+/* 	background: rgba(255, 0, 0, 0.68); */
+	background: rgba(245, 11, 11, 0.9);
 	padding: 100px 0 100px 0;
 }
 .separator-one .green-btn {
@@ -839,7 +799,7 @@ width: -webkit-calc(100% / 2);
 -----------------------------------------*/
 
 .about-us {
-	background: #272727;
+	background: #D3D3D3;
 	color: #FFF;
 	padding-bottom: 100px;
 }
@@ -915,7 +875,7 @@ width: -webkit-calc(100% / 2);
 	text-transform: uppercase;
 }
 .client-list ul li img {
-	max-width: 130px;
+/* 	max-width: 130px; */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	opacity: 0.8;
@@ -940,7 +900,7 @@ width: -webkit-calc(100% / 2);
 
 .stats {
 	background: rgba(0, 0, 0, 0.5);
-	padding: 100px 0 60px 0 !important;
+	padding: 60px 0 60px 0 !important;
 	clear: both;
 }
 .stat {
@@ -1447,9 +1407,10 @@ width: -webkit-calc(100% / 2);
 .purchase-now {
 /* 	background: #e96656; */
 /* 	background: rgba(253, 0, 0, 1); */
-	background: rgba(255, 0, 0, 0.68);
-	padding-top: 70px;
-	padding-bottom: 70px;
+/* 	background: rgba(255, 0, 0, 0.68); */
+	background: rgba(245, 11, 11, 0.9);
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 .purchase-now h3 {
 	text-align: center;
