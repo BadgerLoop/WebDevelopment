@@ -134,7 +134,7 @@ if(video){ // 360video player setup
 } else { // 360photo player setup
 
 	// IMAGE SOURCE /////////////////////////////////////////////////////////////////////////////
-	var image = new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('img/src.jpg')});
+	var image = new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load('img/augustVR.png')});
 	/////////////////////////////////////////////////////////////////////////////////////////////
 
 	var screen = new THREE.Mesh(geometry, image);
