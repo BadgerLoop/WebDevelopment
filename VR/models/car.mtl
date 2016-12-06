@@ -1,0 +1,294 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.12.2016 17:05:52
+
+newmtl car_HEAD2
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05HEAD1.jpg
+	map_Kd models/carTexture/05HEAD1.jpg
+
+newmtl car_SIDE2
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SIDE1.jpg
+	map_Kd models/carTexture/05SIDE1.jpg
+
+newmtl car_SIDE4
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SIDE2.jpg
+	map_Kd models/carTexture/05SIDE2.jpg
+
+newmtl car_SIDE6
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SIDE3.jpg
+	map_Kd models/carTexture/05SIDE3.jpg
+
+newmtl car_SIDE8
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SIDE4.jpg
+	map_Kd models/carTexture/05SIDE4.jpg
+
+newmtl car_BACK2
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05BACK1.jpg
+	map_Kd models/carTexture/05BACK1.jpg
+
+newmtl car_BACK4
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05BACK2.jpg
+	map_Kd models/carTexture/05BACK2.jpg
+
+newmtl car_HEAD4
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05HEAD2.jpg
+	map_Kd models/carTexture/05HEAD2.jpg
+
+newmtl car_HEAD6
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05HEAD3.jpg
+	map_Kd models/carTexture/05HEAD3.jpg
+
+newmtl car_BASIC1
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.0816 0.0816 0.0816
+	Ks 0.0051 0.0051 0.0051
+	Ke 0.0000 0.0000 0.0000
+
+newmtl car_MIRROW1
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05MIRROW.jpg
+	map_Kd models/carTexture/05MIRROW.jpg
+
+newmtl car_TOP1
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05TOP.jpg
+	map_Kd models/carTexture/05TOP.jpg
+
+newmtl car_SPOT2
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SPOT1.jpg
+	map_Kd models/carTexture/05SPOT1.jpg
+
+newmtl car_SPOT4
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05SPOT2.jpg
+	map_Kd models/carTexture/05SPOT2.jpg
+
+newmtl car_GLASS5
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05GLASS4.tif
+	map_Kd models/carTexture/05GLASS4.tif
+
+newmtl car_GLASS6
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05GLASS3.tif
+	map_Kd models/carTexture/05GLASS3.tif
+
+newmtl car_GLASS7
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05GLASS2.tif
+	map_Kd models/carTexture/05GLASS2.tif
+
+newmtl car_GLASS9
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05GLASS5.tif
+	map_Kd models/carTexture/05GLASS5.tif
+
+newmtl car_GLASS10
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05GLASS1.tif
+	map_Kd models/carTexture/05GLASS1.tif
+
+newmtl car_TYRE1
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05TYRE.jpg
+	map_Kd models/carTexture/05TYRE.jpg
+
+newmtl car_TYRESF1
+	Ns 47.5489
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5000 0.5000 0.5000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.0450 0.0450 0.0450
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/carTexture/05RESURF.jpg
+	map_Kd models/carTexture/05RESURF.jpg
